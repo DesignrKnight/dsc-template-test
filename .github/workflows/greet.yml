@@ -1,5 +1,6 @@
 name: Woofy
-on: pull_request_target
+on: pull_request_review:
+    types: [submitted]
 jobs:
   build:
     runs-on: ubuntu-latest
