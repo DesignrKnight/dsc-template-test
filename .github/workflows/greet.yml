@@ -1,5 +1,6 @@
 name: Woofy
-on: pull_request_review:
+on:
+  pull_request_review:
     types: [submitted]
 jobs:
   build:
